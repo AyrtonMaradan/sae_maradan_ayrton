@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+
+.tete{
+    background: linear-gradient(to right , rgb(190, 250, 250) , lightpink);
+    border: 3px solid rgb(197, 151, 250);
+    text-align:center;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+body {
+  overflow: hidden;
+  height: 100%;
+  width: 600px;
+  margin: 0 auto;
+  background:linear-gradient(to right , rgb(190, 250, 250) , lightpink);
+  font-family: 'Roboto', sans-serif;
+  color: #555555;
+}
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  }
+  a{
+    background: linear-gradient(to right , rgb(190, 250, 250) , lightpink);
+    border: 3px solid rgb(197, 151, 250);
+    text-align:center;
+    margin: 0 auto;
+    display:block;
+    width: 100px;
+    margin-top:30%;
+  }
+  a:hover{
+    color: pink;
+  } 
